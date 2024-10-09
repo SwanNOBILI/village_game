@@ -1,0 +1,19 @@
+Exemple pour appeler un constructeur spécifique de la classe mère, via un constructeur de la classe fille:
+
+class Building {
+private:
+    string m_name;
+public:
+    Building(const string name) {
+        m_name = name;
+    }
+};
+
+class Mine : public Building {
+private:
+    m_level;
+public:
+    Mine(const string name, unsigned short int level) : Building(name) { // Appel explicite au constructeur de Building
+        m_level = level;
+    }
+};
