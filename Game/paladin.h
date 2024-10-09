@@ -2,6 +2,7 @@
 #define PALADIN_H
 #include "hero.h"
 
+using namespace std;
 
 class Paladin : public Hero{
 public:

@@ -3,6 +3,7 @@
 #include "building.h"
 #include "inventory.h"
 
+using namespace std;
 
 class Shop : public Building{
 private :

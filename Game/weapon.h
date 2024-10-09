@@ -2,6 +2,8 @@
 #define WEAPON_H
 #include "item.h"
 
+using namespace std;
+
 class Weapon : public Item{
 private:
     int m_prices;
