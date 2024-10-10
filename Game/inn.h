@@ -3,6 +3,8 @@
 #include "building.h"
 #include "hero.h"
 
+using namespace std;
+
 class Inn : public Building{
 public:
     Inn();

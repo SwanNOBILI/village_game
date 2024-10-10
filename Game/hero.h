@@ -6,6 +6,8 @@
 #include "shop.h"
 #include "weapon.h"
 
+using namespace std;
+
 class Hero : public Character{
 private:
     int m_gold;

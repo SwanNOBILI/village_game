@@ -5,6 +5,8 @@
 #include "monster.h"
 #include <vector>
 
+using namespace std;
+
 class Mine : public Building{
 private:
     int m_level;
