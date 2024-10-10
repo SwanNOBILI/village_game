@@ -8,6 +8,7 @@ class Item{
     string m_name ;
 public:
     Item();
+    ~Item();
 };
 
 #endif // ITEM_H

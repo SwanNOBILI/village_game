@@ -9,6 +9,7 @@ private :
     string m_name;
 public:
     Building();
+    ~Building();
     void presentBuilding();
 };
 

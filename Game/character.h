@@ -7,12 +7,13 @@ using namespace std;
 class Character{
 private:
     string m_name;
-    int m_maxHp;
-    int m_hp;
-    int m_attack;
-    int m_defence;
+    unsigned short m_maxHp;
+    unsigned short m_hp;
+    unsigned short m_attack;
+    unsigned short m_defence;
 public:
     Character();
+    ~Character();
     void attackCharacter(Character &enemy);
 };
 

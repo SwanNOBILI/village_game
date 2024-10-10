@@ -7,6 +7,7 @@ using namespace std;
 class Sword : public Weapon{
 public:
     Sword();
+    ~Sword();
 };
 
 #endif // SWORD_H

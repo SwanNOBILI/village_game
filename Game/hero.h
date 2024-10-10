@@ -10,10 +10,11 @@ using namespace std;
 
 class Hero : public Character{
 private:
-    int m_gold;
+    unsigned short m_gold;
     Inventory m_inventory;
 public:
     Hero();
+    ~Hero();
     void buy(Shop &shop);
     void addToInventory(const Item &it);
     void equip(Weapon &wp);

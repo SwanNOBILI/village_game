@@ -9,10 +9,11 @@ using namespace std;
 
 class Mine : public Building{
 private:
-    int m_level;
+    unsigned short m_level;
     vector<Monster*> m_monster;
 public:
     Mine();
+    ~Mine();
     void setMonster();
     void explorate(Hero &hero);
 };

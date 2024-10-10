@@ -7,6 +7,7 @@ using namespace std;
 class Staff : public Weapon{
 public:
     Staff();
+    ~Staff();
 };
 
 #endif // STAFF_H

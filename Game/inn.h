@@ -8,6 +8,7 @@ using namespace std;
 class Inn : public Building{
 public:
     Inn();
+    ~Inn();
     void healHero(Hero &hero);
 };
 

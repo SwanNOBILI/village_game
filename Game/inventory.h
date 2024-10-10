@@ -7,11 +7,14 @@ using namespace std;
 
 class Inventory{
 private :
-    int m_size ;
-    int m_sizeMax;
+    unsigned short m_size ;
+    unsigned short m_sizeMax;
     vector<Item*> m_inventory;
 public:
     Inventory();
+    ~Inventory();
+    void removeItems(const Item &Items);
+    void addItems(const Item &Items);
 };
 
 #endif // INVENTORY_H

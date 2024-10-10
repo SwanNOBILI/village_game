@@ -7,10 +7,11 @@ using namespace std;
 
 class Shop : public Building{
 private :
-    int m_gold ;
+    unsigned short m_gold ;
     Inventory m_inventory;
 public:
     Shop();
+    ~Shop();
     void setInventory();
 };
 

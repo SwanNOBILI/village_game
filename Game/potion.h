@@ -5,9 +5,10 @@
 using namespace std;
 
 class Potion : public Item{
-    int m_prices;
+    unsigned short m_prices;
 public:
     Potion();
+    ~Potion();
 };
 
 #endif // POTION_H

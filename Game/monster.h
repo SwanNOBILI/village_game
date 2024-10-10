@@ -7,6 +7,7 @@ using namespace std;
 class Monster : public Character{
 public:
     Monster();
+    ~Monster();
 };
 
 #endif // MONSTER_H

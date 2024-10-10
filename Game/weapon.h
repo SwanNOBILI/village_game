@@ -6,10 +6,11 @@ using namespace std;
 
 class Weapon : public Item{
 private:
-    int m_prices;
+    unsigned short m_prices;
     int m_attack;
 public:
     Weapon();
+    ~Weapon();
     Weapon *createWeapon(const string &name , int dmg);
 };
 

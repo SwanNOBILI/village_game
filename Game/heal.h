@@ -6,9 +6,10 @@ using namespace std;
 
 class Heal : public Potion{
 private :
-   int  m_hp ;
+    unsigned short  m_hp ;
 public:
     Heal();
+    ~Heal();
 };
 
 #endif // HEAL_H

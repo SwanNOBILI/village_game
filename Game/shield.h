@@ -5,9 +5,11 @@
 using namespace std;
 
 class Shield : public Item{
-    int m_defence;
+    unsigned short m_price;
+    unsigned short m_defence;
 public:
     Shield();
+    ~Shield();
     Shield *createShield(const string &name , int shieldDf);
 };
 
