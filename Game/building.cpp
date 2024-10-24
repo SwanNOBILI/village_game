@@ -1,9 +1,5 @@
-#include "building.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Building::Building() {
-
-}
-
-Building::~Building(){
-
-}
+#include "Headers/Buildings/Building.h"

@@ -1,9 +1,5 @@
-#include "shop.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Shop::Shop() {
-
-}
-
-Shop::~Shop(){
-
-}
+#include "Headers/Buildings/Shop.h"

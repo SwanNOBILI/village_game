@@ -1,9 +1,5 @@
-#include "mine.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Mine::Mine() {
-
-}
-
-Mine::~Mine(){
-
-}
+#include "Headers/Buildings/Mine.h"

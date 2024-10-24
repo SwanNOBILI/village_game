@@ -1,9 +1,5 @@
-#include "paladin.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Paladin::Paladin() {
-
-}
-
-Paladin::~Paladin(){
-
-}
+#include "Headers/Character/Paladin.h"

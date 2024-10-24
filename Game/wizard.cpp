@@ -1,9 +1,5 @@
-#include "wizard.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Wizard::Wizard() {
-
-}
-
-Wizard::~Wizard(){
-
-}
+#include "Headers/Character/Wizard.h"

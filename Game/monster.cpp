@@ -1,9 +1,5 @@
-#include "monster.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Monster::Monster() {
-
-}
-
-Monster::~Monster(){
-
-}
+#include "Headers/Character/Monster.h"

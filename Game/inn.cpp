@@ -1,9 +1,5 @@
-#include "inn.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Inn::Inn() {
-
-}
-
-Inn::~Inn(){
-
-}
+#include "Headers/Buildings/Inn.h"

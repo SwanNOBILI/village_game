@@ -1,9 +1,5 @@
-#include "warrior.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Warrior::Warrior() {
-
-}
-
-Warrior::~Warrior(){
-
-}
+#include "Headers/Character/Warrior.h"

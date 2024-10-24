@@ -1,9 +1,16 @@
-#include "potion.h"
+//
+// Created by alexa on 21/10/2024.
+//
 
-Potion::Potion() {
+#include "Headers/Items/Potion.h"
 
+#include <iostream>
+#include <ostream>
+
+
+Potion::Potion(const std::string &name) : Item(name){
+    m_name = name ;
+    m_prices = 0;
 }
 
-Potion::~Potion(){
-
-}
+Potion::~Potion() = default;
