@@ -1,4 +1,9 @@
 -On créer une fonction "vector<*Building> generateBuildings(unsigned short int n)" plutôt qu'une classe "BuildingFactory" car on considère que l'on ne va pas ajouter de complexité à nos "Building" lors de ce Projet.
 
--On créer une méthode "void equip(Weapon &wp)" dans la classe "Hero" plutôt que de créer pour chacune des classe fille "Warrior", "Wizard" et "Paladin" des fonctions pour équiper l'arme correspondante à a classe (c'est à dire "Sword" pour "Warrior" et "Paladin", "Staff" pour "Wizard" et "Shield" pour "Paladin").
-On fait cela car on veut centraliser la logique d'équipement, c'est à dire que l'on améliore l'Extensibilité et qu'on réduit la Duplication de code malgré le fait que l'on ne respecte pas concrètement la SRP (Single Responsibility Principle) car on manipule plusieurs types d'objets et classes dans la même méthode.
+-On créer une méthode virtuelle pure "virtual void equip(Weapon &wp) = 0" dans Hero, et on redéfinit cette méthode dans les sous classes Warrior, Wizard et Paladin "void equip(Weapon &wp)" ---------> A revoir
+
+-On créer une méthode "void talk()" dans Hero, une méthode virtuelle pure "virtual string getCategory() const = 0" dans Hero et "string getCategory() const override" qui |return "fierce/wise/intrepid Warrior/Wizard/Paladin"| dans Warrior/Wizard/Paladin.
+
+-Créer une classe Display qui va gérer tous les affichages finaux dans la console
+
+-Créer une classe Debug/Test qui va gérer le debug de toutes les classes

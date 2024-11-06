@@ -6,6 +6,7 @@ CONFIG -= qt
 SOURCES += \
         building.cpp \
         character.cpp \
+        display.cpp \
         heal.cpp \
         hero.cpp \
         inn.cpp \
@@ -27,6 +28,7 @@ SOURCES += \
 HEADERS += \
     building.h \
     character.h \
+    display.h \
     heal.h \
     hero.h \
     inn.h \
